@@ -715,3 +715,20 @@ footer{
   height: 300px;
   width: 300px;
 }
+
+@media only screen and (max-width:100px) {
+  
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+  .right {
+    width: 100%;
+  }
+}
+@media only screen and (max-width:1200px) {
+
+  .container, .navbar, .wrapper, .user-image {
+    width: 100%;
+  }
+}
