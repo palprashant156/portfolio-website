@@ -725,10 +725,11 @@ footer{
   .right {
     width: 100%;
   }
+  
 }
 @media only screen and (max-width:1200px) {
 
-  .container, .navbar, .wrapper, .user-image {
+  .container, .navbar, .wrapper, .user-image, .skill-container-right {
     width: 100%;
   }
 }
